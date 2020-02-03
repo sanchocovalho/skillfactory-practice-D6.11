@@ -1,0 +1,6 @@
+Django
+psycopg2
+sqlparse
+pytz
+dj_database_url
+pillow
