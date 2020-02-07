@@ -136,7 +136,7 @@ def borrowed_book(request):
             book.save()
         return redirect('/library/')
     else:
-        return redirect('/inlibrarydex/')
+        return redirect('/library/')
 
 def returned_book(request):
     if request.method == 'POST':
